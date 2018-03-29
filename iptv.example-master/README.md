@@ -1,3 +1,4 @@
+
 # m3u-Loader-Plugin
 
 - What is m3u Playlist Loader Plugin.
@@ -14,19 +15,19 @@
    e.x   #EXTINF:-1 tvg-logo="logo link" , Channels name
           http://thelink.m3u8
           
-          With User agent
+          With User agent  
     e.x   #EXTINF:-1 tvg-logo="logo link" , Channels name    
           http://thelink.ts|user-agent=Youragent&referrer=Yourreferrer     
           
-          Sop to http / sopcast links
+          Sop to http / sopcast links         
     e.x   #EXTINF:-1 tvg-logo="logo link" , Channels name    
           sop://broker.sopcast.com:@@@@@@@@@ 
           
-          Acestream / acestream links
+          Acestream / acestream link         
     e.x   #EXTINF:-1 tvg-logo="logo link" , Channels name    
           acestream://@@@@@@@@@
           
-          Youtube
+          Youtube           
     e.x   #EXTINF:-1 tvg-logo="logo link" , Channels name     
           https://www.youtube.com/watch?v=@@@@@
           
