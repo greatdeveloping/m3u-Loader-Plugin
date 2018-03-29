@@ -42,6 +42,6 @@
           httphost://@@@@@@@
            
           
- - How to Execute IPTV m3u Playlist Loader from my app?
+ - How to Execute IPTV m3u Playlist Loader from my app?    
     See the example how to intent your app use IPTV m3u Playlist Loader and load your Playlist.   
             
