@@ -43,37 +43,55 @@ Support Sopcast and acestream links.
 sop://broker.sopcast.com:@@@@@@@@@
 
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+
 acestream://@@@@@@@@@
 
 Support youtube links
+
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+
 https://www.youtube.com/watch?v=VIDEOID
 
 Support also host links
+
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+
 httphost://@@@@@@@
 
 Support wuffy protected links
+
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+
 xmtv://@@@@@@@
 
 Support website load through internal Web Browser and play the website video(add at the end |webview zoom=% scroll=x,y)
+
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+
 http://@@@@@@@|webview zoom=100 scroll=50,100
 
 Support website load through internal Web Browser and play the website video with autoplay feature if video wont load automatically with webview(add at the end |autoweb zoom=% scroll=x,y)
+
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+
 http://@@@@@@@|autoweb zoom=120 scroll=50,100
 
 Support full screen website Video load (using android webkit), supported for limited websites (add at the end |fullweb). Will open website in background and open video in fullscreen if recognised.
+
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+
 http://@@@@@@@|fullweb
 
 Also support “channel get” method for some sites (if you are lucky 0,01 %), which give you the chance to play a video from a site to your favorite player (add at the end |webdown or webnoagent).
+
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+
 http://@@@@@@@|webdown
 
-
+.
+.
+.
+.
 
 "Video supported:"
 Support all video formats like m3u8, ts, rtmp, mms, mmsh, httphost, UDP etc.
