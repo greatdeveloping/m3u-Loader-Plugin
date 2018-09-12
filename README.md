@@ -37,7 +37,9 @@ Support your protected links with user agent or referer or both like
 http://yourlink.m3u8|user-agent=YOUR_AGENT&referer=YOUR_REFERER
 
 Support Sopcast and acestream links.
+
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+
 sop://broker.sopcast.com:@@@@@@@@@
 
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
