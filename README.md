@@ -30,6 +30,7 @@ Support standard m3u format files like
 
 http://yourlink.m3u8
 
+.
 
 Support your protected links with user agent or referer or both like
 
@@ -37,15 +38,22 @@ Support your protected links with user agent or referer or both like
 
 http://yourlink.m3u8|user-agent=YOUR_AGENT&referer=YOUR_REFERER
 
+.
+
 Support Sopcast and acestream links.
 
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
 
 sop://broker.sopcast.com:@@@@@@@@@
 
+.
+
+
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
 
 acestream://@@@@@@@@@
+
+.
 
 Support youtube links
 
@@ -53,11 +61,15 @@ Support youtube links
 
 https://www.youtube.com/watch?v=VIDEOID
 
+.
+
 Support also host links
 
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
 
 httphost://@@@@@@@
+
+.
 
 Support wuffy protected links
 
@@ -65,11 +77,15 @@ Support wuffy protected links
 
 xmtv://@@@@@@@
 
+.
+
 Support website load through internal Web Browser and play the website video(add at the end |webview zoom=% scroll=x,y)
 
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
 
 http://@@@@@@@|webview zoom=100 scroll=50,100
+
+.
 
 Support website load through internal Web Browser and play the website video with autoplay feature if video wont load automatically with webview(add at the end |autoweb zoom=% scroll=x,y)
 
@@ -77,11 +93,15 @@ Support website load through internal Web Browser and play the website video wit
 
 http://@@@@@@@|autoweb zoom=120 scroll=50,100
 
+.
+
 Support full screen website Video load (using android webkit), supported for limited websites (add at the end |fullweb). Will open website in background and open video in fullscreen if recognised.
 
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
 
 http://@@@@@@@|fullweb
+
+.
 
 Also support “channel get” method for some sites (if you are lucky 0,01 %), which give you the chance to play a video from a site to your favorite player (add at the end |webdown or webnoagent).
 
