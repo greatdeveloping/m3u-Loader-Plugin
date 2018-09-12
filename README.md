@@ -30,6 +30,7 @@ Support standard m3u format files like
 
 http://yourlink.m3u8
 
+
 Support your protected links with user agent or referer or both like
 
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
