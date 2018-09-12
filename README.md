@@ -26,15 +26,12 @@ m3u Format supported:
 
 Support standard m3u format files like
 
-#EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+-#EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+-http://yourlink.m3u8
 
-http://yourlink.m3u8
-
-Support your protected links with user agent or referer or both like
-
-#EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
-
-http://yourlink.m3u8|user-agent=YOUR_AGENT&referer=YOUR_REFERER
+-Support your protected links with user agent or referer or both like
+-#EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
+-http://yourlink.m3u8|user-agent=YOUR_AGENT&referer=YOUR_REFERER
 
 Support Sopcast and acestream links.
 #EXTINF:-1 group-title="YOUR GROUP" tvg-logo="LOGO LINK",Channel name
