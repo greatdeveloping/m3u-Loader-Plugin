@@ -15,12 +15,12 @@ What is m3u Playlist Loader Plugin:
 - Exclusive: This app has also internal web Browser, so you can add official site links as a channel and this app will load site inside app ,then when video load you can fullscreen as you done on your browser (Look below how to enable web Browser).
 
    
-   
-   
-   
-   
-   
-   
+.   
+.   
+.   
+.   
+.   
+.   
    
 m3u Format supported:
 
