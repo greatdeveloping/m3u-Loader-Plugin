@@ -18,7 +18,6 @@ public class classicXtream extends Activity {
         try {
             Intent url = new Intent();
             url.setClassName("com.m3uloader.player", "com.m3uloader.xtream.WelcomeXtreamclassic");
-            //url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcometvstyle");
             // Set Portal
             url.putExtra("portal","myportal.com:port");
             // Set username
