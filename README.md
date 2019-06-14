@@ -23,36 +23,12 @@ Example has 6 different Activities:
 -6- tvstyleXtream (tvstyle Style with XtreamCodes full support - livetv ,movies, series catchup,radio). Just sent your portal-username-password  and player (player1,player2,player3) to app. Great got Premium IPTV Providers who dont want to spent money for an app.
     
 
-
+.
 
 
 For Example if you want to use tvstyleEPG Just edit tvstyleEPG.java with your m3u and EPG url. Then go to androidmanifest.xml and move 
-<category android:name="android.intent.category.LAUNCHER" />
-<category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-.
-to tvstyleEPG activity. Should look from
-.
-<activity
-android:name=".tvstyleEPG"
-android:label="@string/app_name" >
-<intent-filter>
-<action android:name="android.intent.action.MAIN" />
-</intent-filter>
-</activity>
-.
-        
-to
-.
-<activity
-android:name=".tvstyleEPG"
-android:label="@string/app_name" >
-<intent-filter>
-<action android:name="android.intent.action.MAIN" />
-<category android:name="android.intent.category.LAUNCHER" />
-<category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-</intent-filter>
-</activity>
-.
+Launcher to tvstyleEPG activity.
+
 Be sure have it in only one activity otherwise you may have to icons in your menu.
 
 .
