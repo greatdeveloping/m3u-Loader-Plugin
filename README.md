@@ -8,12 +8,26 @@ How to Execute Ultimate IPTV Plugin-Addon from my app?
     
 
 Example has 6 different Activities:
+
+.
     1- classic (Classic Style without EPG). Just sent your m3u to app.
+    
+.
     2- classicEPG (Classic Style with EPG). Just sent your m3u and EPG File (uncompressed or compressed to .gz or .xz) to app. 
+    
+.
     3- classicXtream (Classic Style with XtreamCodes full support - livetv ,movies, series catchup,radio). Just sent your portal-username-password to app. Great got Premium IPTV Providers who dont want to spent money for an app.
+    
+.
     4- tvstyle (tvstyle Style without EPG). Just sent your m3u to app.
+    
+.
     5- tvstyleEPG (tvstyle Style with EPG). Just sent your m3u and EPG File (uncompressed or compressed to .gz or .xz) to app. 
+    
+.
     6- tvstyleXtream (tvstyle Style with XtreamCodes full support - livetv ,movies, series catchup,radio). Just sent your portal-username-password to app. Great got Premium IPTV Providers who dont want to spent money for an app.
+    
+.
 
 
 
