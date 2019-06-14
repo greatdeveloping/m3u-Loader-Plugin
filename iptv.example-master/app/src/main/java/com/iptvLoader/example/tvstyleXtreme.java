@@ -18,13 +18,14 @@ public class tvstyleXtreme extends Activity {
         try {
             Intent url = new Intent();
             url.setClassName("com.m3uloader.player", "com.m3uloader.xtream.WelcomeXtreamtvstyle");
-            //url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcometvstyle");
-            url.putExtra("portal","iptv.iptvsub.info:8880");
+
+            // Set Portal
+            url.putExtra("portal","myportal.com:port");
             // Set username
-            url.putExtra("username","pambosch");
+            url.putExtra("username","username");
             // Set password
-            url.putExtra("password","429007");
-            //Set Player
+            url.putExtra("password","password");
+            //Set Player (player1, player2 or player3)
             url.putExtra("player","player1" );
             startActivity(url);
             finish();
