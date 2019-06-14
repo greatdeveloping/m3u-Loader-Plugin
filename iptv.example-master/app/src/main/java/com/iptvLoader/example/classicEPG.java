@@ -20,9 +20,9 @@ public class classicEPG extends Activity {
             url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcome");
             //url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcometvstyle");
             // Set your playlist url
-            url.setData(Uri.parse("https://raw.githubusercontent.com/possiblelife/plft/master/co.m3u"));
+            url.setData(Uri.parse("YOUR M3u URL"));
             // Set your epg url
-            url.putExtra("EPG","https://raw.githubusercontent.com/Twilight0/repo-guide/master/guide-el.xml.gz");
+            url.putExtra("YOUR EPG URL");
             startActivity(url);
             finish();
         } catch (ActivityNotFoundException e) {
