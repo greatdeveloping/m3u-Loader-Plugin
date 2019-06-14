@@ -19,16 +19,16 @@ Example has 6 different Activities:
     3- classicXtream (Classic Style with XtreamCodes full support - livetv ,movies, series catchup,radio). Just sent your portal-username-password to app. Great got Premium IPTV Providers who dont want to spent money for an app.
     
 .
-    4- tvstyle (tvstyle Style without EPG). Just sent your m3u to app.
+    4- tvstyle (tvstyle Style without EPG). Just sent your m3u and player (player1,player2,player3) to app.
     
 .
-    5- tvstyleEPG (tvstyle Style with EPG). Just sent your m3u and EPG File (uncompressed or compressed to .gz or .xz) to app. 
+    5- tvstyleEPG (tvstyle Style with EPG). Just sent your m3u,EPG File (uncompressed or compressed to .gz or .xz) and player (player1,player2,player3)to app. 
     
 .
-    6- tvstyleXtream (tvstyle Style with XtreamCodes full support - livetv ,movies, series catchup,radio). Just sent your portal-username-password to app. Great got Premium IPTV Providers who dont want to spent money for an app.
+    6- tvstyleXtream (tvstyle Style with XtreamCodes full support - livetv ,movies, series catchup,radio). Just sent your portal-username-password  and player (player1,player2,player3) to app. Great got Premium IPTV Providers who dont want to spent money for an app.
     
 .
-
+For Exaple if you want to use tvstyleEPG
 
 
 
