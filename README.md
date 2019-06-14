@@ -1,14 +1,22 @@
-# m3u-Loader-Plugin
+# ULTIMATE IPTV PLUGIN-ADDON
 
-How to Execute IPTV m3u Playlist Loader from my app?    
-    See the example how to intent your app use IPTV m3u Playlist Loader and load your Playlist.  
+How to Execute Ultimate IPTV Plugin-Addon from my app?    
+    See the example how to intent your app use Ultimate IPTV Plugin-Addon and load your Playlist. You have two option, Classic (phone optimized or for low end devices) and TvStyle (set-top box style). See updated Example. 
     
- 
-What is m3u Playlist Loader Plugin:    
-- Its a plugin which load m3u lists, can parse your playlists (from web or your storage) and show them in grid with logo when available, groups also supported.
+    Example has 6 different Activities:
+    1- classic (Classic Style without EPG). Just sent your m3u to app.
+    2- classicEPG (Classic Style with EPG). Just sent your m3u and EPG File (uncompressed or compressed to .gz or .xz) to app. 
+    3- classicXtream (Classic Style with XtreamCodes full support - livetv ,movies, series catchup,radio). Just sent your portal-username-password to app. Great got Premium IPTV Providers who dont want to spent money for an app.
+    4- tvstyle (tvstyle Style without EPG). Just sent your m3u to app.
+    5- tvstyleEPG (tvstyle Style with EPG). Just sent your m3u and EPG File (uncompressed or compressed to .gz or .xz) to app. 
+    6- tvstyleXtream (tvstyle Style with XtreamCodes full support - livetv ,movies, series catchup,radio). Just sent your portal-username-password to app. Great got Premium IPTV Providers who dont want to spent money for an app.
+    
+    
+General Info about Ultimate IPTV Plugin-Addon:    
+- Its a plugin-addon which load m3u lists, can parse your playlists and show them in grid with logo when available, groups also supported.
 - Support search function (add them as groups if your playlist has groups).
 - Easy and fast choose groups with “Select Group” button or by pressing next or previous buttons.
-- When you click a channel/video a video player dialog appears so you can choose the player you want.
+- When you click a channel/video a video player dialog appears so you can choose the player you want (Default player can also selected).
 - Has 3 internal players (can play a lot of Formats without any external player), internal youtube player but also support external players (youtube official app, MXPlayer, Vlc, Wuffy, Xplayer, Soptohttp and Acestream for P2P so far). Can regognice which player is able to play a link and show only the working one (through a dialog).
 - Support LocalCast and WebViewCast for chromecast,DLNS and more
 - Support Website video (using internal web browser open websites with videos)
