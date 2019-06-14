@@ -31,9 +31,11 @@ Example has 6 different Activities:
 .
 
 For Example if you want to use tvstyleEPG Just edit tvstyleEPG.java with your m3u and EPG url. Then go to androidmanifest.xml and move 
+.
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
 to tvstyleEPG activity. Should look from
+.
        <activity
                 android:name=".tvstyleEPG"
                 android:label="@string/app_name" >
@@ -41,8 +43,10 @@ to tvstyleEPG activity. Should look from
              <action android:name="android.intent.action.MAIN" />
            </intent-filter>
        </activity>
+       .
         
 to
+.
        <activity
                 android:name=".tvstyleEPG"
                 android:label="@string/app_name" >
@@ -52,6 +56,7 @@ to
               <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
+.
 Be sure have it in only one activity otherwise you may have to icons in your menu.
 
 .
