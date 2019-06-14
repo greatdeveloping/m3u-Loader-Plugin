@@ -1,17 +1,23 @@
-# ULTIMATE IPTV PLUGIN-ADDON
+# ULTIMATE IPTV PLUGIN-ADDON (V3.00)-XtreamCodes
+
+Find it at Play store
+https://play.google.com/store/apps/details?id=com.m3uloader.player&hl=en
 
 How to Execute Ultimate IPTV Plugin-Addon from my app?    
     See the example how to intent your app use Ultimate IPTV Plugin-Addon and load your Playlist. You have two option, Classic (phone optimized or for low end devices) and TvStyle (set-top box style). See updated Example. 
     
-    Example has 6 different Activities:
+
+Example has 6 different Activities:
     1- classic (Classic Style without EPG). Just sent your m3u to app.
     2- classicEPG (Classic Style with EPG). Just sent your m3u and EPG File (uncompressed or compressed to .gz or .xz) to app. 
     3- classicXtream (Classic Style with XtreamCodes full support - livetv ,movies, series catchup,radio). Just sent your portal-username-password to app. Great got Premium IPTV Providers who dont want to spent money for an app.
     4- tvstyle (tvstyle Style without EPG). Just sent your m3u to app.
     5- tvstyleEPG (tvstyle Style with EPG). Just sent your m3u and EPG File (uncompressed or compressed to .gz or .xz) to app. 
     6- tvstyleXtream (tvstyle Style with XtreamCodes full support - livetv ,movies, series catchup,radio). Just sent your portal-username-password to app. Great got Premium IPTV Providers who dont want to spent money for an app.
-    
-    
+
+
+
+
 General Info about Ultimate IPTV Plugin-Addon:    
 - Its a plugin-addon which load m3u lists, can parse your playlists and show them in grid with logo when available, groups also supported.
 - Support search function (add them as groups if your playlist has groups).
