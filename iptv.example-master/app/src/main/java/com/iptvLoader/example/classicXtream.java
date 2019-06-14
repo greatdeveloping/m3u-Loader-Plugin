@@ -20,11 +20,11 @@ public class classicXtream extends Activity {
             url.setClassName("com.m3uloader.player", "com.m3uloader.xtream.WelcomeXtreamclassic");
             //url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcometvstyle");
             // Set Portal
-            url.putExtra("portal","iptv.iptvsub.info:8880");
+            url.putExtra("portal","myportal.com:port");
             // Set username
-            url.putExtra("username","pambosch");
+            url.putExtra("username","username");
             // Set password
-            url.putExtra("password","429007");
+            url.putExtra("password","password");
             startActivity(url);
             finish();
         } catch (ActivityNotFoundException e) {
