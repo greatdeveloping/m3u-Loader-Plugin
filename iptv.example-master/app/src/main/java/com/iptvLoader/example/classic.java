@@ -21,7 +21,7 @@ public class classic extends Activity {
             url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcome");
             //url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcometvstyle");
             // Set your playlist url
-            url.setData(Uri.parse("https://raw.githubusercontent.com/possiblelife/plft/master/co.m3u"));
+            url.setData(Uri.parse("YOUR URL"));
             startActivity(url);
             finish();
         } catch (ActivityNotFoundException e) {
