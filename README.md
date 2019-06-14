@@ -25,8 +25,8 @@ Example has 6 different Activities:
 .
 
 For Example if you want to use tvstyleEPG Just edit tvstyleEPG.java with your m3u and EPG url. Then go to androidmanifest.xml and move 
--<category android:name="android.intent.category.LAUNCHER" />
--<category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+<category android:name="android.intent.category.LAUNCHER" />
+<category android:name="android.intent.category.LEANBACK_LAUNCHER" />
 .
 to tvstyleEPG activity. Should look from
 .
