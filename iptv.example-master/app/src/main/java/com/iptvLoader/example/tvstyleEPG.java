@@ -18,12 +18,12 @@ public class tvstyleEPG extends Activity {
         try {
             Intent url = new Intent();
             url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcometvstyle");
-            //url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcometvstyle");
+     
             // Set your playlist url
-            url.setData(Uri.parse("https://raw.githubusercontent.com/possiblelife/plft/master/co.m3u"));
+            url.setData(Uri.parse("YOUT M3U URL"));
             // Set your epg url
-            url.putExtra("EPG","https://raw.githubusercontent.com/Twilight0/repo-guide/master/guide-el.xml.gz" );
-            //Set Player
+            url.putExtra("EPG","YOUR EPG URL" );
+            //Set Player (player1, player2 or player3)
             url.putExtra("player","player1" );
             startActivity(url);
             finish();
