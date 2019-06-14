@@ -18,7 +18,6 @@ public class classicEPG extends Activity {
         try {
             Intent url = new Intent();
             url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcome");
-            //url.setClassName("com.m3uloader.player", "com.m3uloader.player.Welcometvstyle");
             // Set your playlist url
             url.setData(Uri.parse("YOUR M3u URL"));
             // Set your epg url
