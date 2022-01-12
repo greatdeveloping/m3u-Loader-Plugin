@@ -1,4 +1,4 @@
-Example For m3u Playlist Loader Plugin
+Example For m3u Playlist Loader Plugin V3-
 
 
 Find it at Play store https://play.google.com/store/apps/details?id=com.m3uloader.player&hl=en
