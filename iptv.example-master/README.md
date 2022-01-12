@@ -1,4 +1,4 @@
-# ULTIMATE IPTV PLUGIN-ADDON (V3-)
+# Example For ULTIMATE IPTV PLUGIN-ADDON (V3-)
 
 
 Find it at Play store https://play.google.com/store/apps/details?id=com.m3uloader.player&hl=en
