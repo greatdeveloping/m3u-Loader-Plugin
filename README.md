@@ -19,12 +19,12 @@ Ultimate IPTV Plugin-Addon Support (V4+, for older versions see readme at V3- ex
     
 
 .
-
+.
 
 See the Example how to switch between each type.
 
 .
-
+.
 
 
 General Info about Ultimate IPTV Plugin-Addon:    
@@ -117,6 +117,11 @@ Support standard m3u format files like
  
  
 
+.
+.
+.
+.
+.
 
 
   
