@@ -78,13 +78,13 @@ public class startmeup extends Activity {
                             break;
                         case 4:
                             // Set Mag Portal
-                            url.putExtra("portal","http://my_mag_portal.com:port");
+                            url.putExtra("portal","http://my_mag_portal.com:port/c");
                             // Set mac number
                             url.putExtra("mac","YOUR_MAC_NUMBER");
                             break;
                         case 5:
                             // Set Mag Portal
-                            url.putExtra("portal","http://my_mag_portal.com:port");
+                            url.putExtra("portal","http://my_mag_portal.com:port/c");
                             // Set mac number
                             url.putExtra("mac","YOUR_MAC_NUMBER");
                             break;
