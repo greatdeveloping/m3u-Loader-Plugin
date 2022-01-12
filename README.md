@@ -18,14 +18,13 @@ Ultimate IPTV Plugin-Addon Support (V4+, for older versions see readme at V3- ex
 -3- Mag Portal (full support - livetv ,movies, series catchup,radio). Just intent your portal and mac# to the app.
     
 
-.
-.
+.   
+.   
 
 See the Example how to switch between each type.
 
-.
-.
-
+.   
+.   
 
 General Info about Ultimate IPTV Plugin-Addon:    
 - Its a plugin-addon which load m3u lists, can parse your playlists and show them in grid with logo when available, groups also supported.
@@ -117,11 +116,12 @@ Support standard m3u format files like
  
  
 
-.
-.
-.
-.
-.
+.   
+.   
+.   
+.   
+.   
+.   
 
 
   
