@@ -59,10 +59,12 @@ Look below for all advance parameters/futures
 m3u Format supported:
 
 Support standard m3u format files like
+
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://yourlink.m3u8
  
  Support your protected links with user agent or referer or both like
+ 
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://yourlink.m3u8|user-agent=YOUR_AGENT&amp;referer=YOUR_REFERER
           Alternate
@@ -72,6 +74,7 @@ Support standard m3u format files like
           http://yourlink.m3u8
  
  Support Sopcast and acestream links.
+ 
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           sop://broker.sopcast.com:@@@@@@@@@
 
@@ -79,10 +82,12 @@ Support standard m3u format files like
           acestream://@@@@@@@@@
  
  Support youtube links
+ 
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           https://www.youtube.com/watch?v=VIDEOID
  
  Support also host links (through wuffy player)
+ 
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           httphost://@@@@@@@ 
  
@@ -111,26 +116,30 @@ Support standard m3u format files like
           http://yourlink.mpd|license_type=widevine&amp;license_key=LICENSE_KEY_LINK
  
  
- .   
-  
+
+
+
   
  Advance M3U supported Fuctions: (m3u ONLY, use ONLY for your own websites)
  
  Web site loading through an internal web browser and play the website video.
           Add at the end |webview zoom=%% scroll=x,y or |webdeskview zoom=%% scroll=x,y for desktop mode
           Example:
+          
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|webview zoom=100 scroll=50,100
 
  Web site loading through an internal web browser and play the website video in internal player
           Add at the end |autoweb zoom=%% scroll=x,y or |autodeskweb zoom=%% scroll=x,y for desktop mode. To use for example 2nd m3u8 add delay like |autodelayweb$$delay=2 zoom=%% scroll=x,y or |autodeskdelayweb$$delay=2 zoom=%% scroll=x,y for desktop mode
           Example:
+          
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|autodelayweb$$delay=2 zoom=100 scroll=50,100
  
  Support “get m3u8” methods from websites, gives you the opportunity to play a video from a site in your favorite player.
           Add at the end  |webdig or |weballdig or |webfulldig. For desktop mode use |webdeskdig or |webdeskalldig or |webdeskfulldig
           Example:
+          
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|weballdig
           Explanation 1 = For e.x  webdeskalldig - desk mean use Desktop agent, all means use with m3u8 user-agent and referer.
@@ -139,6 +148,7 @@ Support standard m3u format files like
  Also support “get mp4,mpg” method from websites, gives you the opportunity to play a video from a site in your favorite player.
           Add at the end  |webviddig or |webvidalldig or |webvidfulldig.
           Example:
+          
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|webvidalldig
           Explanation 1 = For e.x  webvidalldig - all means use with mp4 user-agent and referer.
@@ -147,6 +157,7 @@ Support standard m3u format files like
  To avoid first m3u8 (choose which to use) use the delay.
           Add at the end  |webdelaydig$$delay=ADD_NUMBER or |webdelayalldig$$delay=ADD_NUMBER or |webdelayfulldig$$delay=ADD_NUMBER. For desktop mode use |webdelaydeskdig$$delay=ADD_NUMBER or |webdelaydeskalldig$$delay=ADD_NUMBER  or |webdelaydeskfulldig$$delay=ADD_NUMBER.
           Example:
+          
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|webdelayalldig$$delay=2
           Explanation = For e.x  webdelaydeskalldig$$delay=3 - delay means get 3rd m3u8 (avoid first 2), desk mean use Desktop agent, all means use with m3u8 user-agent and referer.
@@ -154,12 +165,14 @@ Support standard m3u format files like
  For websites need referer to open use Referer.
           Add at the end |webreferdig$$referer=YOUR_REFERER  or |webreferalldig$$referer=YOUR_REFERER  or |webreferfulldig$$referer=YOUR_REFERER. For desktop mode use |webreferdeskdig$$referer=YOUR_REFERER or |webreferdeskalldig$$referer=YOUR_REFERER or |webreferdeskfulldig$$referer=YOUR_REFERER
           Example:
+          
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|webreferalldig$$referer=YOUR_REFERER
  
  For websites need referer to avoid first m3u8 use Referer and delay.
           Add at the end |webreferdelaydig$$referer=YOUR_REFERER  or |webreferdelayalldig$$referer=YOUR_REFERER  or |webreferdelayfulldig$$referer=YOUR_REFERER. For desktop mode use |webreferdelaydeskdig$$referer=YOUR_REFERER or |webreferdelaydeskalldig$$referer=YOUR_REFERER or |webreferdelaydeskfulldig$$referer=YOUR_REFERER
           Example:
+          
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|webreferdelayfulldig$$referer=YOUR_REFERER
  
