@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IPTV Loader Example</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="not_installed_title">\"Ultimate IPTV Plugin-Addon\" required not installed.</string>
+    <string name="not_installed_message">Please install \"Ultimate IPTV Plugin-Addon\" app from Google Play</string>
+    <string name="button_install">Install</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="old_installed_title">Old Version of \"Ultimate IPTV Plugin-Addon\" installed.</string>
+    <string name="old_installed_message">require \"Ultimate IPTV Plugin-Addon\" 4.00 and up. Please update Plugin through Google Play.</string>
+    <string name="button_update">"Update From\nPlay Store</string>
+</resources>
