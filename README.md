@@ -1,4 +1,4 @@
-# ULTIMATE IPTV PLUGIN-ADDON (V4.00)
+# ULTIMATE IPTV PLUGIN-ADDON (V4.00+)
 
 Find it at Play store
 https://play.google.com/store/apps/details?id=com.m3uloader.player&hl=en
