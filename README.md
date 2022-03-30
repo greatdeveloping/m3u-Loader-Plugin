@@ -65,7 +65,7 @@ Support standard m3u format files like
  Support your protected links with user agent or referer or both like
  
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
-          http://yourlink.m3u8|user-agent=YOUR_AGENT&amp;referer=YOUR_REFERER
+          http://yourlink.m3u8|user-agent=YOUR_AGENT&referer=YOUR_REFERER
           Alternate
           #EXTVLCOPT:http-user-agent=YOUR_AGENT
           #EXTVLCOPT:http-referer=YOUR_REFERER
@@ -94,17 +94,17 @@ Support standard m3u format files like
  
           Example 1:
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
-          http://yourlink.mpd|license_type=widevine&amp;license_key=LICENSE_KEY_LINK
+          http://yourlink.mpd|license_type=widevine&license_key=LICENSE_KEY_LINK
  
           Example 1 alternate:
           #KODIPROP:inputstream.adaptive.license_type=widevine
           #KODIPROP:inputstream.adaptive.license_key=LICENSE_KEY_LINK
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
-          http://yourlink.mpd|license_type=widevine&amp;license_key=LICENSE_KEY_LINK
+          http://yourlink.mpd|license_type=widevine&license_key=LICENSE_KEY_LINK
  
           Example 2:
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
-          http://yourlink.mpd|license_type=widevine&amp;license_key=LICENSE_KEY_LIN&amp;user-agent=YOUR_AGENT&amp;referer=YOUR_REFERER
+          http://yourlink.mpd|license_type=widevine&license_key=LICENSE_KEY_LIN&user-agent=YOUR_AGENT&referer=YOUR_REFERER
  
           Example 2 alternate:
           #KODIPROP:inputstream.adaptive.license_type=widevine
@@ -112,7 +112,7 @@ Support standard m3u format files like
           #EXTVLCOPT:http-user-agent=YOUR_AGENT
           #EXTVLCOPT:http-referer=YOUR_REFERER
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
-          http://yourlink.mpd|license_type=widevine&amp;license_key=LICENSE_KEY_LINK
+          http://yourlink.mpd|license_type=widevine&license_key=LICENSE_KEY_LINK
  
  
 
