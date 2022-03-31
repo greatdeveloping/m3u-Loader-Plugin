@@ -133,7 +133,7 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
  Advance M3U supported Fuctions: (m3u ONLY, use ONLY for your own websites)
  
  Web site loading through an internal web browser and play the website video.
-          Add at the end |webview zoom=%% scroll=x,y or |webdeskview zoom=%% scroll=x,y for desktop mode
+          Add at the end |webview zoom=%% scroll=x,y or |webdeskview zoom=%% scroll=x,y for desktop mode.
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
