@@ -116,6 +116,7 @@ Support standard m3u format files like
  
  
 Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (license type support=widevine,clearkey,playready)
+        
         Example:
     
          #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
@@ -134,13 +135,14 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
  
  Web site loading through an internal web browser and play the website video.
           Add at the end |webview zoom=%% scroll=x,y or |webdeskview zoom=%% scroll=x,y for desktop mode.
+          
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|webview zoom=100 scroll=50,100
 
  Web site loading through an internal web browser and play the website video in internal player
-          Add at the end |autoweb zoom=%% scroll=x,y or |autodeskweb zoom=%% scroll=x,y for desktop mode. To use for example 2nd m3u8 add delay like |autodelayweb$$delay=2 zoom=%% scroll=x,y or |autodeskdelayweb$$delay=2 zoom=%% scroll=x,y for desktop mode
+          Add at the end |autoweb zoom=%% scroll=x,y or |autodeskweb zoom=%% scroll=x,y for desktop mode. To use for example 2nd m3u8 add delay like |autodelayweb$$delay=2 zoom=%% scroll=x,y or |autodeskdelayweb$$delay=2 zoom=%% scroll=x,y for desktop mode.
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
@@ -148,6 +150,7 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
  
  Support “get m3u8” methods from websites, gives you the opportunity to play a video from a site in your favorite player.
           Add at the end  |webdig or |weballdig or |webfulldig. For desktop mode use |webdeskdig or |webdeskalldig or |webdeskfulldig
+          
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
@@ -157,6 +160,7 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
  
  Also support “get mp4,mpg” method from websites, gives you the opportunity to play a video from a site in your favorite player.
           Add at the end  |webviddig or |webvidalldig or |webvidfulldig.
+          
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
@@ -166,6 +170,7 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
  
  To avoid first m3u8 (choose which to use) use the delay.
           Add at the end  |webdelaydig$$delay=ADD_NUMBER or |webdelayalldig$$delay=ADD_NUMBER or |webdelayfulldig$$delay=ADD_NUMBER. For desktop mode use |webdelaydeskdig$$delay=ADD_NUMBER or |webdelaydeskalldig$$delay=ADD_NUMBER  or |webdelaydeskfulldig$$delay=ADD_NUMBER.
+          
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
@@ -173,15 +178,17 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
           Explanation = For e.x  webdelaydeskalldig$$delay=3 - delay means get 3rd m3u8 (avoid first 2), desk mean use Desktop agent, all means use with m3u8 user-agent and referer.
  
  For websites need referer to open use Referer.
-          Add at the end |webreferdig$$referer=YOUR_REFERER  or |webreferalldig$$referer=YOUR_REFERER  or |webreferfulldig$$referer=YOUR_REFERER. For desktop mode use |webreferdeskdig$$referer=YOUR_REFERER or |webreferdeskalldig$$referer=YOUR_REFERER or |webreferdeskfulldig$$referer=YOUR_REFERER
+          Add at the end |webreferdig$$referer=YOUR_REFERER  or |webreferalldig$$referer=YOUR_REFERER  or |webreferfulldig$$referer=YOUR_REFERER. For desktop mode use |webreferdeskdig$$referer=YOUR_REFERER or |webreferdeskalldig$$referer=YOUR_REFERER or |webreferdeskfulldig$$referer=YOUR_REFERER.
+          
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|webreferalldig$$referer=YOUR_REFERER
  
  For websites need referer to avoid first m3u8 use Referer and delay.
-          Add at the end |webreferdelaydig$$referer=YOUR_REFERER  or |webreferdelayalldig$$referer=YOUR_REFERER  or |webreferdelayfulldig$$referer=YOUR_REFERER. For desktop mode use |webreferdelaydeskdig$$referer=YOUR_REFERER or |webreferdelaydeskalldig$$referer=YOUR_REFERER or |webreferdelaydeskfulldig$$referer=YOUR_REFERER
-           Example:
+          Add at the end |webreferdelaydig$$referer=YOUR_REFERER  or |webreferdelayalldig$$referer=YOUR_REFERER  or |webreferdelayfulldig$$referer=YOUR_REFERER. For desktop mode use |webreferdelaydeskdig$$referer=YOUR_REFERER or |webreferdelaydeskalldig$$referer=YOUR_REFERER or |webreferdelaydeskfulldig$$referer=YOUR_REFERER.
+          
+          Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|webreferdelayfulldig$$referer=YOUR_REFERER
