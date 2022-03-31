@@ -115,6 +115,11 @@ Support standard m3u format files like
           http://yourlink.mpd|license_type=widevine&license_key=LICENSE_KEY_LINK
  
  
+Support m3u8 & Dash videos with stream headers and custom drm headers (license type support=widevine,clearkey,playready)
+Example:
+
+#EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
+https://channel_LINK|license_type=widevine&license_key=LICENSE_KEY_LINK&stream_headers={header1=head1_link&header2=head2_link&header3=head3_link}&license_headers={ header1=head1_link&header2=head2_link&header3=head3_link}
 
 .   
 .   
