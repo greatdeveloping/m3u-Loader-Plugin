@@ -3,6 +3,8 @@
 Find it at Play store
 https://play.google.com/store/apps/details?id=com.m3uloader.player&hl=en
 
+If you want, you can test the compatibility of the plugin with your playlist using the Playlist loader apk available in the release section before creating your own application using the example.
+
 NOTE: ULTIMATE IPTV PLUGIN-ADDON DOES NOT ΤΑΚΕ ANY RESPONSIBILITY FOR ANY MALICIOUS OR WRONG USE. THE APPLICATION IS INDICATED ONLY FOR USE WITH LISTS THAT YOU HAVE THE COPYRIGHT TO USE SO. THE APPLICATION DOES NOT ΤΑΚΕ ANY RESPONSIBILITY IN THE OPPOSITE CASE.
 
 How to Execute Ultimate IPTV Plugin-Addon from my app?    
