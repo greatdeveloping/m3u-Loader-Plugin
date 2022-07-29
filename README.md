@@ -136,23 +136,40 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
  Advance M3U supported Fuctions: (m3u ONLY, use ONLY for your own websites)
  
  Web site loading through an internal web browser and play the website video.
-          Add at the end |webview zoom=%% scroll=x,y or |webdeskview zoom=%% scroll=x,y for desktop mode.
+          Add at the end 
           
+          |webview zoom=%% scroll=x,y or |webdeskview zoom=%% scroll=x,y for desktop mode.
+  .
+  
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|webview zoom=100 scroll=50,100
 
  Web site loading through an internal web browser and play the website video in internal player
-          Add at the end |autoweb zoom=%% scroll=x,y or |autodeskweb zoom=%% scroll=x,y for desktop mode. To use for example 2nd m3u8 add delay like |autodelayweb$$delay=2 zoom=%% scroll=x,y or |autodeskdelayweb$$delay=2 zoom=%% scroll=x,y for desktop mode.
+    Add at the end 
+    
+          |autoweb zoom=%% scroll=x,y or |autodeskweb zoom=%% scroll=x,y for desktop mode. 
+          
+   To use for example 2nd m3u8 add delay like 
+   
+          |autodelayweb$$delay=2 zoom=%% scroll=x,y or |autodeskdelayweb$$delay=2 zoom=%% scroll=x,y for desktop mode.
+  .
+  
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
           http://@@@@@@@|autodelayweb$$delay=2 zoom=100 scroll=50,100
  
  Support “get m3u8” methods from websites, gives you the opportunity to play a video from a site in your favorite player.
-          Add at the end  |webdig or |weballdig or |webfulldig. For desktop mode use |webdeskdig or |webdeskalldig or |webdeskfulldig
+   Add at the end  
           
+          |webdig or |weballdig or |webfulldig. 
+   For desktop mode use 
+          
+          |webdeskdig or |webdeskalldig or |webdeskfulldig
+   .
+   
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
@@ -161,8 +178,11 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
           Explanation 2 = For e.x  webdeskfulldig - desk mean use Desktop agent, full means use all m3u8 headers.
  
  Also support “get mp4,mpg” method from websites, gives you the opportunity to play a video from a site in your favorite player.
-          Add at the end  |webviddig or |webvidalldig or |webvidfulldig.
+          Add at the end  
           
+          |webviddig or |webvidalldig or |webvidfulldig.
+   .
+   
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
@@ -171,8 +191,14 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
           Explanation 2 = For e.x  webvidfulldig - full means use all mp4 headers
  
  To avoid first m3u8 (choose which to use) use the delay.
-          Add at the end  |webdelaydig$$delay=ADD_NUMBER or |webdelayalldig$$delay=ADD_NUMBER or |webdelayfulldig$$delay=ADD_NUMBER. For desktop mode use |webdelaydeskdig$$delay=ADD_NUMBER or |webdelaydeskalldig$$delay=ADD_NUMBER  or |webdelaydeskfulldig$$delay=ADD_NUMBER.
+   Add at the end  
           
+          |webdelaydig$$delay=ADD_NUMBER or |webdelayalldig$$delay=ADD_NUMBER or |webdelayfulldig$$delay=ADD_NUMBER. 
+   For desktop mode use 
+          
+          |webdelaydeskdig$$delay=ADD_NUMBER or |webdelaydeskalldig$$delay=ADD_NUMBER  or |webdelaydeskfulldig$$delay=ADD_NUMBER.
+   .
+   
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
