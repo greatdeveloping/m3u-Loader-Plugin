@@ -187,7 +187,7 @@ public class startmeup extends Activity {
         try{
             PackageInfo pInfo = this.getPackageManager().getPackageInfo("com.m3uloader.player", 0);
             int version = pInfo.versionCode;
-            String lower = "106" ;
+            String lower = "112" ;
 
             int low = Integer.parseInt(lower);
 
