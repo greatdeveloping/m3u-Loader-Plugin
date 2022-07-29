@@ -188,6 +188,7 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
           
           |webreferdeskdig$$referer=YOUR_REFERER or |webreferdeskalldig$$referer=YOUR_REFERER or |webreferdeskfulldig$$referer=YOUR_REFERER
   . 
+          
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
@@ -202,6 +203,7 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
           
           |webreferdelaydeskdig$$referer=YOUR_REFERER or |webreferdelaydeskalldig$$referer=YOUR_REFERER or |webreferdelaydeskfulldig$$referer=YOUR_REFERER
  .         
+          
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
