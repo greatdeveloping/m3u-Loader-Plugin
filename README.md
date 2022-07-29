@@ -180,9 +180,14 @@ Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (l
           Explanation = For e.x  webdelaydeskalldig$$delay=3 - delay means get 3rd m3u8 (avoid first 2), desk mean use Desktop agent, all means use with m3u8 user-agent and referer.
  
  For websites need referer to open use Referer.
-          Add at the end |webreferdig$$referer=YOUR_REFERER  or |webreferalldig$$referer=YOUR_REFERER  or |webreferfulldig$$referer=YOUR_REFERER
-          For desktop mode use |webreferdeskdig$$referer=YOUR_REFERER or |webreferdeskalldig$$referer=YOUR_REFERER or |webreferdeskfulldig$$referer=YOUR_REFERER
+   Add at the end 
+   
+          |webreferdig$$referer=YOUR_REFERER  or |webreferalldig$$referer=YOUR_REFERER  or |webreferfulldig$$referer=YOUR_REFERER
+
+   For desktop mode use 
           
+          |webreferdeskdig$$referer=YOUR_REFERER or |webreferdeskalldig$$referer=YOUR_REFERER or |webreferdeskfulldig$$referer=YOUR_REFERER
+   
           Example:
           
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
