@@ -17,7 +17,7 @@ Ultimate IPTV Plugin-Addon Support (V4+, for older versions see readme at V3- ex
     
 -2- Xtream Codes (full support - livetv ,movies, series catchup,radio). Just intent your portal-username-password to the app. Great got Premium IPTV Providers who dont want to spent money for an app.
 
--3- Mag Portal (full support - livetv ,movies, series catchup,radio). Just intent your portal and mac# to the app.
+-3- Mag Portal (full support - livetv ,movies, series catchup,radio). Just intent your portal and mac# to the app (V4.06+ You can also intent mag details, serial, device id and device id2, see example).
     
 
 .   
