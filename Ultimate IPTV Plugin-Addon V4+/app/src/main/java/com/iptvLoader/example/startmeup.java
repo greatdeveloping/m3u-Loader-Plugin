@@ -85,7 +85,7 @@ public class startmeup extends Activity {
                             url.putExtra("mag_info",0);  //0 - dont send device details,  1 - send device details
                             // add below line if you want the app to sent serial, device id and device id2 to the server (V4.06+)
                             // sent a string extra in that format sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2, see below
-                            verification_example="sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2";
+                            String verification_example="sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2";
                             url.putExtra("verification", verification_example);
                             break;
                         case 5:
@@ -97,7 +97,7 @@ public class startmeup extends Activity {
                             url.putExtra("mag_info",0);  //0 - dont send device details,  1 - send device details
                             // add below line if you want the app to sent serial, device id and device id2 to the server (V4.06+)
                             // sent a string extra in that format sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2, see below
-                            verification_example="sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2";
+                            String verification_example="sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2";
                             url.putExtra("verification", verification_example);
                             break;
                     }
