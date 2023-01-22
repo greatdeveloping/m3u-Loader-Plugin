@@ -1,21 +1,13 @@
 package com.iptvLoader.example;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.ActivityNotFoundException;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.net.Uri;
-import android.view.Gravity;
-import android.widget.Toast;
-
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.UnknownHostException;
+        import android.app.Activity;
+        import android.app.AlertDialog;
+        import android.content.ActivityNotFoundException;
+        import android.content.DialogInterface;
+        import android.content.Intent;
+        import android.content.pm.PackageInfo;
+        import android.content.pm.PackageManager;
+        import android.net.Uri;
 
 
 public class startmeup extends Activity {
@@ -31,7 +23,7 @@ public class startmeup extends Activity {
     protected void onStart() {
         super.onStart();
 
-        //add type you want from above list (change classic_m3u accordingly)
+        //add the type you want from above list (change classic_m3u to something from above list accordingly)
         int type=CLASSIC_m3u;
 
         boolean pluginInstalled = isAppInstalled("com.m3uloader.player");
@@ -52,12 +44,14 @@ public class startmeup extends Activity {
                             // Set your m3u url
                             url.setData(Uri.parse("YOUR M3u URL"));
                             // Set your epg url if available,else delete below (url.putExtra("YOUR EPG URL");)
+                            // V4.20+ Delete below if your m3u include epg links. If you add the below will ignore epg links inside m3u.
                             url.putExtra("EPG","YOUR EPG URL" );
                             break;
                         case 1:
                             // Set your m3u url
                             url.setData(Uri.parse("YOUR M3u URL"));
                             // Set your epg url if available,else delete below (url.putExtra("YOUR EPG URL");)
+                            // V4.20+ Delete below if your m3u include epg links. If you add the below will ignore epg links inside m3u.
                             url.putExtra("EPG","YOUR EPG URL" );
                             break;
                         case 2:
@@ -87,6 +81,8 @@ public class startmeup extends Activity {
                             // sent a string extra in that format sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2&signature=YOUR_SIGNATURE", see below
                             String verification_example="sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2&signature=YOUR_SIGNATURE";
                             url.putExtra("verification", verification_example);
+                            //  V4.20+ add the MAG device like below, default is MAG322 if nothing added.
+                            url.putExtra("MAG", "MAG322");
                             break;
                         case 5:
                             // Set Mag Portal
@@ -97,8 +93,10 @@ public class startmeup extends Activity {
                             url.putExtra("mag_info",0);  //0 - dont send device details,  1 - send device details
                             // add below line if you want the app to sent serial, device id and device id2 to the server (V4.06+)
                             // sent a string extra in that format sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2&signature=YOUR_SIGNATURE", see below
-                            String verification_example="sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2&signature=YOUR_SIGNATURE";
-                            url.putExtra("verification", verification_example);
+                            String verification_example2="sn=YOUR_SERIAL&device_id=YOUR_DEVICE_ID1&device_id2=YOUR_DEVICE_ID2&signature=YOUR_SIGNATURE";
+                            url.putExtra("verification", verification_example2);
+                            //  V4.20+ add the MAG device like below, default is MAG322 if nothing added.
+                            url.putExtra("MAG", "MAG322");
                             break;
                     }
                     startActivity(url);
@@ -127,27 +125,27 @@ public class startmeup extends Activity {
         builder.setTitle(R.string.not_installed_title);
         builder.setMessage(R.string.not_installed_message);
         builder.setPositiveButton(R.string.button_install,
-            new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialogInterface, int id)
-                {
-                    try {
-                        // try to open Google Play app first 
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.m3uloader.player")));
-                    } catch (ActivityNotFoundException e) {
-                        // if Google Play is not found for some reason, let's open browser
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=com.m3uloader.player")));
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialogInterface, int id)
+                    {
+                        try {
+                            // try to open Google Play app first
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.m3uloader.player")));
+                        } catch (ActivityNotFoundException e) {
+                            // if Google Play is not found for some reason, let's open browser
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=com.m3uloader.player")));
+                        }
+                        finish();
                     }
-                    finish();
-                }
-            });
+                });
         builder.setNegativeButton(R.string.button_cancel,
-            new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialogInterface, int id)
-                {
-                    // if cancelled - just close the app
-                    finish();
-                }
-            });
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialogInterface, int id)
+                    {
+                        // if cancelled - just close the app
+                        finish();
+                    }
+                });
         builder.setCancelable(false);
         builder.create().show();
     }
