@@ -7,6 +7,17 @@ If you want, you can test the compatibility of the plugin with your playlist usi
 
 NOTE: ULTIMATE IPTV PLUGIN-ADDON DOES NOT ΤΑΚΕ ANY RESPONSIBILITY FOR ANY MALICIOUS OR WRONG USE. THE APPLICATION IS INDICATED ONLY FOR USE WITH LISTS THAT YOU HAVE THE COPYRIGHT TO USE SO. THE APPLICATION DOES NOT ΤΑΚΕ ANY RESPONSIBILITY IN THE OPPOSITE CASE.
 
+
+WHATS NEW WITH LATEST V4.20
+(1) Support epg links (multiple) inside the m3u (example m3u topic #EXTM3U url-tvg="https://MY_EPG_LINK/epg.gz")
+NOTE: If you sent epg with intent then epg links inside the m3u will be ignored. Intent epg supports only one epg.
+(2) Fix and updated internal players
+(3) Better support mag portal, support device name (for example you can intent "MAG322").
+(4) Favorites can be organized inside folders.
+(5) You can ranem Channels
+(6) Many other changes and tweaks.
+
+
 How to Execute Ultimate IPTV Plugin-Addon from my app?    
     See the example how to intent your app use Ultimate IPTV Plugin-Addon and load your Playlist. You have two option, Classic (phone optimized or for low end devices) and TvStyle (set-top box style). See updated Example. 
     
