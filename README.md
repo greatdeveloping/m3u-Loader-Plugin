@@ -9,12 +9,18 @@ NOTE: ULTIMATE IPTV PLUGIN-ADDON DOES NOT ΤΑΚΕ ANY RESPONSIBILITY FOR ANY MA
 
 
 WHATS NEW WITH LATEST V4.20
+
 (1) Support epg links (multiple) inside the m3u (example m3u topic #EXTM3U url-tvg="https://MY_EPG_LINK/epg.gz")
 NOTE: If you sent epg with intent then epg links inside the m3u will be ignored. Intent epg supports only one epg.
+
 (2) Fix and updated internal players
+
 (3) Better support mag portal, support device name (for example you can intent "MAG322").
+
 (4) Favorites can be organized inside folders.
+
 (5) You can ranem Channels
+
 (6) Many other changes and tweaks.
 
 
