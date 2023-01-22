@@ -7,6 +7,9 @@ If you want, you can test the compatibility of the plugin with your playlist usi
 
 NOTE: ULTIMATE IPTV PLUGIN-ADDON DOES NOT ΤΑΚΕ ANY RESPONSIBILITY FOR ANY MALICIOUS OR WRONG USE. THE APPLICATION IS INDICATED ONLY FOR USE WITH LISTS THAT YOU HAVE THE COPYRIGHT TO USE SO. THE APPLICATION DOES NOT ΤΑΚΕ ANY RESPONSIBILITY IN THE OPPOSITE CASE.
 
+.   
+.   
+
 
 WHATS NEW WITH LATEST V4.20
 
@@ -22,6 +25,9 @@ NOTE: If you sent epg with intent then epg links inside the m3u will be ignored.
 (5) You can ranem Channels
 
 (6) Many other changes and tweaks.
+
+.   
+.   
 
 
 How to Execute Ultimate IPTV Plugin-Addon from my app?    
