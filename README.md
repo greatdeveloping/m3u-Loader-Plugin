@@ -56,11 +56,11 @@ How to Execute Ultimate IPTV Plugin-Addon from my app?
 
 Ultimate IPTV Plugin-Addon Support (V4+, for older versions see readme at V3- example):
 
--1- m3u from internet, plus EPG url (uncompressed or compressed to .gz or .xz) if you wish. Just intent your m3u and epg to the app.
+-1 m3u from internet, plus EPG url (uncompressed or compressed to .gz or .xz) if you wish. Just intent your m3u and epg to the app.
     
--2- Xtream Codes (full support - livetv ,movies, series catchup,radio). Just intent your portal-username-password to the app. Great got Premium IPTV Providers who dont want to spent money for an app.
+-2 Xtream Codes (full support - livetv ,movies, series catchup,radio). Just intent your portal-username-password to the app. Great got Premium IPTV Providers who dont want to spent money for an app.
 
--3- Mag Portal (full support - livetv ,movies, series catchup,radio). Just intent your portal and mac# to the app (V4.06+ You can also intent mag details, serial, device id, device id2 and signature, see example).
+-3 Mag Portal (full support - livetv ,movies, series catchup,radio). Just intent your portal and mac# to the app (V4.06+ You can also intent mag details, serial, device id, device id2 and signature, see example).
     
 
 .   
@@ -72,26 +72,22 @@ See the Example how to switch between each type.
 .   
 
 General Info about Ultimate IPTV Plugin-Addon:    
-- Its a plugin-addon which load m3u lists, can parse your playlists and show them in grid with logo when available, groups also supported.
-- Support search function (add them as groups if your playlist has groups).
-- Easy and fast choose groups with “Select Group” button or by pressing next or previous buttons.
-- When you click a channel/video a video player dialog appears so you can choose the player you want (Default player can also selected).
-- Has 3 internal players (can play a lot of Formats without any external player), internal youtube player but also support external players (youtube official app, MXPlayer, Vlc, Wuffy, Xplayer, Soptohttp and Acestream for P2P so far). Can regognice which player is able to play a link and show only the working one (through a dialog).
-- Support LocalCast and WebViewCast for chromecast,DLNS and more
-- Support Website video (using internal web browser open websites with videos)
-- Exclusive: This app has also internal web Browser, so you can add official site links as a channel and this app will load site inside app ,then when video load you can fullscreen as you done on your browser (Look below how to enable web Browser).
+
 - Its a plugin-addon which support
+
            internet m3u + EPG,
+           
            Xtream Codes (Live Tv - Movies - Series - Catchup) and
+           
            MAG Portal (Live Tv - Movies - Series - Radio - Catchup)
-Parse your playlists and show them in grid/list/tile with logos when available, groups also supported.
-EPG Supported for all m3us (needed to add your own EPG file link), Xtreams codes and Mag Portal.
-Two styles to choose (see example how to choose), Classic and tvstyle. Both styles is fully supported with device remote control.
-Easy and fast choose groups with \"Select Group\" button or by pressing next or previous buttons.
-Has 3 internal players (can play a lot of Formats without any external player), internal youtube player but also support external players (youtube official app, MXPlayer, Vlc, Wuffy, Xplayer, Soptohttp and Acestream for P2P so far).
-Support external players for chromecast,DLNS and more (LocalCast and WebViewCast)
-Support many advance parameters/futures (m3u only) like internal web Browser (using internal web browser you can open websites with videos)
-Look below for all advance parameters/futures
+- Parse your playlists and show them in grid/list/tile with logos when available, groups also supported.
+- EPG Supported for all m3us (needed to add your own EPG file link), Xtreams codes and Mag Portal.
+- Two styles to choose (see example how to choose), Classic and tvstyle. Both styles is fully supported with device remote control.
+- Easy and fast choose groups with \"Select Group\" button or by pressing next or previous buttons.
+- Has 3 internal players (can play a lot of Formats without any external player), internal youtube player but also support external players (youtube official app, MXPlayer, Vlc, Wuffy, Xplayer, Soptohttp and Acestream for P2P so far).
+- Support external players for chromecast,DLNS and more (LocalCast and WebViewCast)
+- Support many advance parameters/futures (m3u only) like internal web Browser (using internal web browser you can open websites with videos)
+- Look below for all advance parameters/futures
    
 .   
 .   
