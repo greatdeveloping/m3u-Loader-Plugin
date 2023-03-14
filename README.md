@@ -12,10 +12,15 @@ NOTE: ULTIMATE IPTV PLUGIN-ADDON DOES NOT ΤΑΚΕ ANY RESPONSIBILITY FOR ANY MA
 WHATS NEW WITH LATEST V4.22
 
 (1) Updated EPG detection inside an m3u. Fixed detection of EPG extension.
+
 (2) Epg preparation in the background (by default).
+
 (3) Added new menu style/type for tvstyle.
+
 (4) Clock removal option.
+
 (5) Option to change channel logo URL.
+
 (7) Other changes and improvements.
 
 WHATS NEW WITH LATEST V4.21
