@@ -9,6 +9,7 @@ NOTE: ULTIMATE IPTV PLUGIN-ADDON DOES NOT ΤΑΚΕ ANY RESPONSIBILITY FOR ANY MA
 
 .   
 .   
+
 WHATS NEW WITH LATEST V4.22
 
 (1) Updated EPG detection inside an m3u. Fixed detection of EPG extension.
@@ -54,16 +55,14 @@ How to Execute Ultimate IPTV Plugin-Addon from my app?
     See the example how to intent your app use Ultimate IPTV Plugin-Addon and load your Playlist. You have two option, Classic (phone optimized or for low end devices) and TvStyle (set-top box style). See updated Example. 
     
 
-Ultimate IPTV Plugin-Addon Support (V4+, for older versions see readme at V3- example):
+Ultimate IPTV Plugin-Addon Support (V4+, for older versions see readme at V3- example - unsupported):
 
 -1 m3u from internet, plus EPG url (uncompressed or compressed to .gz or .xz) if you wish. Just intent your m3u and epg to the app.
     
 -2 Xtream Codes (full support - livetv ,movies, series catchup,radio). Just intent your portal-username-password to the app. Great got Premium IPTV Providers who dont want to spent money for an app.
 
 -3 Mag Portal (full support - livetv ,movies, series catchup,radio). Just intent your portal and mac# to the app (V4.06+ You can also intent mag details, serial, device id, device id2 and signature, see example).
-    
-
-.   
+  
 .   
 
 See the Example how to switch between each type.
