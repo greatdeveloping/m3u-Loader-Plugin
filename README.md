@@ -23,9 +23,13 @@ WHATS NEW WITH LATEST V4.22
 
 (7) Other changes and improvements.
 
+.
+
 WHATS NEW WITH LATEST V4.21
 
 (1) Fix a bug with EPG Downloader
+
+.
 
 WHATS NEW WITH LATEST V4.20
 
