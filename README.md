@@ -140,7 +140,7 @@ Support standard m3u format files like
           #KODIPROP:inputstream.adaptive.license_type=widevine
           #KODIPROP:inputstream.adaptive.license_key=LICENSE_KEY_LINK
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
-          http://yourlink.mpd|license_type=widevine&license_key=LICENSE_KEY_LINK
+          http://yourlink.mpd
  
           Example 2:
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
@@ -152,7 +152,7 @@ Support standard m3u format files like
           #EXTVLCOPT:http-user-agent=YOUR_AGENT
           #EXTVLCOPT:http-referer=YOUR_REFERER
           #EXTINF:-1 group-title=\"YOUR GROUP\" tvg-logo=\"LOGO LINK\",Channel name
-          http://yourlink.mpd|license_type=widevine&license_key=LICENSE_KEY_LINK
+          http://yourlink.mpd
  
  
 Support m3u8 & Dash videos with stream headers and custom drm headers [4.01+] (license type support=widevine,clearkey,playready)
